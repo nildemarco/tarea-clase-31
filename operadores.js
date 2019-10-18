@@ -106,21 +106,16 @@ console.log (resultado);
 
 let cantidadDePersonas = 100;
  
-let factorDePersonas = cantidadDePersonas + 5;
-
-cantidadDePersonas = factorDePersonas;
+cantidadDePersonas += 5;
 
 console.log ("La cantidad de personas:" + cantidadDePersonas);
 
-factorDePersonas = cantidadDePersonas - 3;
+cantidadDePersonas -= 3;
 
-cantidadDePersonas = factorDePersonas; 
 
 console.log ("La cantidad de personas:" + cantidadDePersonas);
 
-factorDePersonas = cantidadDePersonas * 2;
-
-cantidadDePersonas = factorDePersonas; 
+cantidadDePersonas *= 2;
 
 console.log ("La cantidad de personas:" + cantidadDePersonas);
 
