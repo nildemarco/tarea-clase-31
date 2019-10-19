@@ -1,3 +1,4 @@
+// Ejercicio 27
 let numero1 = 3;
 
 let numero2 = 6;
@@ -21,6 +22,8 @@ console.log (resultado);
 resultado = numero1 % numero2;
 
 console.log (resultado);
+
+// Ejercicio 28
 
 let numero = 9;
 
@@ -104,26 +107,41 @@ resultado = base * altura;
 
 console.log (resultado);
 
+// Ejercicio 33
+
 let cantidadDePersonas = 100;
  
 cantidadDePersonas += 5;
 
-console.log ("La cantidad de personas:" + cantidadDePersonas);
+console.log ("La cantidad de personas:" + " " + cantidadDePersonas);
 
 cantidadDePersonas -= 3;
 
 
-console.log ("La cantidad de personas:" + cantidadDePersonas);
+console.log ("La cantidad de personas:" + " " + cantidadDePersonas);
 
 cantidadDePersonas *= 2;
 
-console.log ("La cantidad de personas:" + cantidadDePersonas);
+console.log ("La cantidad de personas:" + " " + cantidadDePersonas);
+
+//Ejercicio 34
 
 let ingreso = 1000;
 
 let ganancia = 600;
 
 let impuesto = 500;
+
+// Ejercicio 35
+
+let numeroDeCliente = 143245;
+
+let numeroDeClienteIngresado = '143245';
+
+console.log ( "El número ingresado por el cliente es correcto:", numeroDeCliente == numeroDeClienteIngresado);
+
+console.log ( "El número ingresado por el cliente es válido:", numeroDeCliente === numeroDeClienteIngresado);
+
 
 
 
